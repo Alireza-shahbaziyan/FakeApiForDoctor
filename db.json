@@ -1,0 +1,184 @@
+{
+  "doctors": [
+    {
+      "id": 1,
+      "slug": "dr-reza-mohammadi",
+      "full_name": "دکتر رضا محمدی",
+      "score": 4.9,
+      "medical_code": "کد123456",
+      "about": "متخصص قلب با ۱۵ سال سابقه",
+      "image": "/images/dr-reza.jpg",
+      "gender": "مرد",
+      "city": "تهران",
+      "district": "۱",
+      "featured": true,
+      "appointment_available": true,
+      "addresses": [
+        {
+          "title": "کلینیک قلب سلامت",
+          "address": "خیابان ولیعصر، نرسیده به پارک ملت",
+          "state": 1,
+          "district": 1,
+          "location": "35.6892,51.3890"
+        }
+      ],
+      "skills": [
+        {
+          "slug": "cardiology",
+          "title": "قلب و عروق"
+        }
+      ],
+      "services": [
+        {
+          "slug": "consultation",
+          "title": "ویزیت تخصصی",
+          "is_active": true
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "slug": "dr-sara-hosseini",
+      "full_name": "دکتر سارا حسینی",
+      "score": 4.7,
+      "medical_code": "کد654321",
+      "about": "متخصص پوست با بیش از ۱۰ سال سابقه درمانی",
+      "image": "/images/dr-sara.jpg",
+      "gender": "زن",
+      "city": "کرج",
+      "district": "۲",
+      "featured": false,
+      "appointment_available": false,
+      "addresses": [
+        {
+          "title": "کلینیک پوست آرا",
+          "address": "بلوار شهید بهشتی، کرج",
+          "state": 2,
+          "district": 2,
+          "location": "35.8327,50.9916"
+        }
+      ],
+      "skills": [
+        {
+          "slug": "dermatology",
+          "title": "پوست و مو"
+        }
+      ],
+      "services": [
+        {
+          "slug": "skin-check",
+          "title": "معاینه پوست",
+          "is_active": true
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "slug": "dr-majid-karimi",
+      "full_name": "دکتر مجید کریمی",
+      "score": 4.5,
+      "medical_code": "کد112233",
+      "about": "جراح عمومی با تمرکز بر لاپاراسکوپی",
+      "image": "/images/dr-karimi.jpg",
+      "gender": "مرد",
+      "city": "اصفهان",
+      "district": "۳",
+      "featured": true,
+      "appointment_available": true,
+      "addresses": [
+        {
+          "title": "بیمارستان سجاد",
+          "address": "خیابان بزرگمهر، اصفهان",
+          "state": 3,
+          "district": 3,
+          "location": "32.6539,51.6660"
+        }
+      ],
+      "skills": [
+        {
+          "slug": "surgery",
+          "title": "جراحی عمومی"
+        }
+      ],
+      "services": [
+        {
+          "slug": "surgical-consult",
+          "title": "مشاوره جراحی",
+          "is_active": true
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "slug": "dr-nazanin-jafari",
+      "full_name": "دکتر نازنین جعفری",
+      "score": 4.8,
+      "medical_code": "کد445566",
+      "about": "روان‌پزشک و مشاور خانواده",
+      "image": "/images/dr-nazanin.jpg",
+      "gender": "زن",
+      "city": "شیراز",
+      "district": "۵",
+      "featured": false,
+      "appointment_available": true,
+      "addresses": [
+        {
+          "title": "کلینیک روان آرام",
+          "address": "خیابان ستارخان، شیراز",
+          "state": 4,
+          "district": 5,
+          "location": "29.5918,52.5837"
+        }
+      ],
+      "skills": [
+        {
+          "slug": "psychiatry",
+          "title": "روان‌پزشکی"
+        }
+      ],
+      "services": [
+        {
+          "slug": "mental-health",
+          "title": "مشاوره سلامت روان",
+          "is_active": true
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "slug": "dr-hamid-samadi",
+      "full_name": "دکتر حمید صمدی",
+      "score": 4.6,
+      "medical_code": "کد778899",
+      "about": "اورولوژیست با سابقه در درمان نازایی مردان",
+      "image": "/images/dr-hamid.jpg",
+      "gender": "مرد",
+      "city": "تبریز",
+      "district": "۴",
+      "featured": true,
+      "appointment_available": false,
+      "addresses": [
+        {
+          "title": "کلینیک تخصصی تبریز",
+          "address": "خیابان امام خمینی، تبریز",
+          "state": 5,
+          "district": 4,
+          "location": "38.0962,46.2738"
+        }
+      ],
+      "skills": [
+        {
+          "slug": "urology",
+          "title": "ارولوژی"
+        }
+      ],
+      "services": [
+        {
+          "slug": "fertility-check",
+          "title": "بررسی باروری",
+          "is_active": true
+        }
+      ]
+    }
+  ]
+}
